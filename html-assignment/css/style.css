@@ -15,3 +15,10 @@ header,footer {
 #train-image {
     box-shadow: 0px 0px 2px 1px #000;
 }
+/* hobbies list changes */
+#hobbies {
+    list-style-type: square;
+}
+#hobbies li:nth-child(odd) {
+    background-color: lightgrey;
+}
