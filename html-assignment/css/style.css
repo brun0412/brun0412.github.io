@@ -3,6 +3,11 @@ body {
         font-family: Helvetica;
         font-size: 18px;
 }
+/* header/footer background */
 header,footer {
     background-color: lightblue;
+}
+/* page heading colour */
+.site-title {
+    color: darkslateblue;
 }
