@@ -22,3 +22,15 @@ header,footer {
 #hobbies li:nth-child(odd) {
     background-color: lightgrey;
 }
+/* nav style */
+nav ul {
+    list-style-type: none;
+}
+nav ul a {
+    text-decoration: none;
+    background-color: cyan;
+    border-style: double;
+}
+nav ul a:hover {
+    background-color: darkcyan;
+}
