@@ -1,5 +1,70 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+    line-height: 1.3;
+}
+
+/* Changes headings to a lighter font */
+h1,h2,h3,h4 {
+    font-weight: 500;
+}
+
+/* styles wrapper, placing it in centre of screen with non fullscreen width and lighter background */
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 1024px;
+    margin: auto;
+}
+
+/* styles page title and places it in header background image */
+header h1 {
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.headerbg {
+    position: relative;
+}
+
+/* styles nav, arranging it horizontally, changing text characteristics, and changing background on hover */
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 2rem;
+    list-style-type: none;
+    display: inline-block;
+    width: 33%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav li:hover {
+    background-color: #aad4cf;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav li:nth-child(1),nav li:nth-child(2) {
+    border-right: 2px solid #000;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 
