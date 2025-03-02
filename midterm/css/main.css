@@ -31,12 +31,14 @@ header h1 {
 }
 
 /* styles nav, arranging it horizontally, changing text characteristics, and changing background on hover */
+/* aligns nav options horizontally */
 nav ul {
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
+/* makes nav options full width */
 nav li {
     font-size: 2rem;
     list-style-type: none;
@@ -46,17 +48,25 @@ nav li {
     box-sizing: border-box;
 }
 
+/* changes background colour on hover to match page background */
 nav li:hover {
     background-color: #aad4cf;
 }
 
+/* removes underline and blue text colour */
 a {
     text-decoration: none;
     color: #000;
 }
 
+/* adds border lines on right side of first and second entries, creating dividers between options */
 nav li:nth-child(1),nav li:nth-child(2) {
     border-right: 2px solid #000;
+}
+
+/* adds padding for all content except header */
+div#story,div#contact,footer {
+    padding: 0 10px;
 }
 
 h2 {
@@ -65,6 +75,13 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+/* resizes and floats image, allowing text to wrap around it */
+img.imgmidarticle {
+    width: 25%;
+    float: left;
+    margin: 15px;
 }
 
 
