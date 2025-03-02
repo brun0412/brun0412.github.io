@@ -1,3 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+/* clearfix: this class can be added after any floats to control what will be affected by the float */
+.clearfix: ::after {
+    content: "";
+    clear: both;
+    display: block;
+}
