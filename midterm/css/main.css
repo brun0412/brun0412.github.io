@@ -40,7 +40,7 @@ nav ul {
 
 /* makes nav options full width */
 nav li {
-    font-size: 2rem;
+    font-size: 1.5rem;
     list-style-type: none;
     display: inline-block;
     width: 33%;
@@ -57,6 +57,7 @@ nav li:hover {
 a {
     text-decoration: none;
     color: #000;
+    text-transform: uppercase;
 }
 
 /* adds border lines on right side of first and second entries, creating dividers between options */
@@ -110,6 +111,11 @@ button {
     text-align: center;
     background-color: rgba(255, 255, 255, 0);
     margin: 10px 0;
+}
+
+footer p {
+    text-align: right;
+    padding: 10px 20px 25px;
 }
 
 /* clearfix: this class can be added after any floats to control what will be affected by the float */
