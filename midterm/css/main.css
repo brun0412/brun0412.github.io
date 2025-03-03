@@ -82,7 +82,7 @@ h3 {
 img.imgmidarticle {
     width: 25%;
     float: left;
-    margin: 15px;
+    margin: 0 15px 15px 0;
 }
 
 form {
