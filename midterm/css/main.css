@@ -84,7 +84,33 @@ img.imgmidarticle {
     margin: 15px;
 }
 
+form {
+    border: 2px solid #000;
+    padding: 20px 20px 10px 10px;
+}
 
+/* class used on form inputs and labels except for radio buttons. allows for the text boxes to be widened */
+.formelement {
+    /* margin: 5px 0 10px 0; */
+    width: 100%;
+}
+
+form input {
+    margin: 5px 0 10px 0;
+}
+
+textarea {
+    height: 4rem;
+}
+
+/* rebuilds button, with new border and background colour */
+button {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px 0;
+}
 
 /* clearfix: this class can be added after any floats to control what will be affected by the float */
 .clearfix: ::after {
