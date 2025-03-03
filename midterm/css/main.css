@@ -119,8 +119,10 @@ footer p {
 }
 
 /* clearfix: this class can be added after any floats to control what will be affected by the float */
-.clearfix: ::after {
+.clearfix:after {
     content: "";
     clear: both;
     display: block;
 }
+
+/* css validated */
