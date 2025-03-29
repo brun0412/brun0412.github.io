@@ -15,7 +15,8 @@
     <header id="home">
         <!-- allows nav background to run full width -->
         <div class="navbg">
-            <nav>
+            <!-- wrapper split into parts, allowing for full width backgrounds on only chosen sections -->
+            <nav class="wrapper">
                 <img src="images/logo.png" alt="Three Star Media logo">
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -34,12 +35,25 @@
         </div>
         <div class="headerbg">
             <!-- to be made full width with background image in css -->
-            <article>
+            <article class="wrapper">
                 <h1>Welcome to Three Star Media</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid delectus inventore similique necessitatibus, quaerat fuga numquam amet corrupti sapiente tempora veniam totam voluptatem, animi doloremque quam, placeat veritatis asperiores reprehenderit.</p>
                 <button type="button">Connect with us <i class="fa-solid fa-caret-right"></i></button>
             </article>
         </div>
     </header>
+    <main>
+        <!-- about us section, background full width -->
+        <div class="aboutbg">
+            <div id="about" class="wrapper">
+                <img src="images/about-us.jpg" alt="Ping pong table">
+                <article>
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magnam esse tenetur, porro quis quo libero officiis officia nam odio, omnis, fugit id veritatis architecto vel. Excepturi repudiandae deserunt itaque?</p>
+                </article>
+            </div>
+        </div>
+        
+    </main>
 </body>
 </html>
