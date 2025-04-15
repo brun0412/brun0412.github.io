@@ -1,9 +1,30 @@
-
-.open-sans-goodname {
+body {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+    font-variation-settings: "width" 100;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbg {
+  background-color: #222;
+}
+
+nav ul li {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+nav ul li a {
+  color: #c78c06;
+  text-decoration: none;
+}
+
+nav img {
+  background-color: #c78c06;
+}
