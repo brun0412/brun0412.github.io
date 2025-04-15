@@ -7,6 +7,25 @@ body {
     box-sizing: border-box;
 }
 
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 700;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: auto;
@@ -57,5 +76,10 @@ nav form button {
   height: 2rem;
   width: 2rem;
   margin: 0;
+}
+
+.headerbg {
+  background-color: #ffe6ac;
+  background-image: url(../images/main-banner.jpg);
 }
 
