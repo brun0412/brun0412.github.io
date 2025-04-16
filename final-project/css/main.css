@@ -120,10 +120,37 @@ nav form button {
   padding: 2rem;
 }
 
+/* about style here */
+
 .aboutbg {
   background-color: #ffe6ac;
 }
 
 #about img {
   width: 100%;
+}
+
+/* services style here */
+
+#services article {
+  margin: 1rem 0;
+  background-color: #ffe6ac;
+}
+
+#services article img {
+  width: 100%;
+}
+
+/* needed margin on all tags except image */
+
+#services article h3,p,button {
+  margin: 1rem;
+}
+
+#services article button {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 2rem;
 }
