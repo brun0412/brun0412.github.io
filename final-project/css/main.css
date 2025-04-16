@@ -361,5 +361,32 @@ footer a {
     grid-area: print;
   }
 
+  /* team section below. rearranging using flex in order to change order */
 
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex img {
+    margin: 0;
+    flex-basis: calc(50% - 1rem);
+  }
+
+  .flex div {
+    margin: 0;
+    box-sizing: border-box;
+    flex-basis: calc(50% - 1rem);
+  }
+
+  /* rearranges bob's photo and info */
+
+  .bob {
+    order: 3;
+  }
+
+  .bobimg {
+    order: 4;
+    width: 50%;
+  }
 }
