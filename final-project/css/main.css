@@ -143,7 +143,7 @@ nav form button {
 
 /* needed margin on all tags except image */
 
-#services article h3,p,button {
+#services article h3,#services article p,#services article button {
   margin: 1rem;
 }
 
@@ -172,4 +172,10 @@ nav form button {
   border: #c78c06 1px solid;
   font-size: 1.5rem;
   padding: 2rem;
+}
+
+/* styles team. float will be used for desktop, but unneccesary for mobile. using border to add horizontal lines beneath titles */
+
+.flex div {
+  background-color: #ffe6ac;
 }
