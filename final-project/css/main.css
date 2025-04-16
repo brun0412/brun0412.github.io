@@ -7,9 +7,12 @@ body {
     box-sizing: border-box;
 }
 
+/* general text styling here, to make up for reset */
+
 h1 {
   font-size: 4rem;
   font-weight: 700;
+  line-height: 7rem;
 }
 
 h2 {
@@ -26,11 +29,17 @@ h4 {
   font-weight: 700;
 }
 
+p {
+  margin: 1rem 0;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: auto;
   padding: 1rem;
 }
+
+/* everything below styles nav */
 
 .navbg {
   background-color: #222;
@@ -46,6 +55,8 @@ nav ul li a {
   text-decoration: none;
 }
 
+/* specifically targets home option, allowing for separate bg and text colour */
+
 nav ul li:nth-child(1) {
   background-color: #c78c06;
 }
@@ -57,6 +68,8 @@ nav ul li:nth-child(1) a {
 .logobg {
   background-color: #c78c06;
 }
+
+/* everything here styles search bar, using calc to stay at full width while keeping space for button */
 
 #searchbar {
   box-sizing: border-box;
@@ -78,8 +91,28 @@ nav form button {
   margin: 0;
 }
 
+/* this section styles the header, adding a full-sized background image, solid colour in case image fails for whatever reason, and the semi opaque second background layered on top */
+
 .headerbg {
   background-color: #ffe6ac;
   background-image: url(../images/main-banner.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 4rem 0 4rem;
 }
 
+.headerbgdark {
+ background-color: rgba(2, 2, 2, 0.5);
+ padding-top: 4rem;
+}
+
+.headerbgdark .wrapper {
+  color: white;
+}
+
+.headerbutton {
+  background-color: #c78c06;
+  border: none;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
