@@ -161,6 +161,7 @@ nav form button {
   background-color: #222;
   background-image: url(../images/vision.jpg);
   background-size: cover;
+  background-position: center;
   color: white;
 }
 
@@ -359,4 +360,6 @@ footer a {
   .print {
     grid-area: print;
   }
+
+
 }
