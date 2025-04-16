@@ -237,3 +237,10 @@ nav form button {
   background-color: #ffe6ac;
   text-align: center;
 }
+
+/* styles map. height required, 400px chosen as it should look presentable in most widths */
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
