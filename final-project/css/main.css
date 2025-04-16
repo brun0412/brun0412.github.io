@@ -244,3 +244,14 @@ iframe {
   width: 100%;
   height: 400px;
 }
+
+/* styles footer. all strategies used here have been used already, no additional notes */
+
+footer {
+  background-color: #222;
+  color: #c78c06;
+}
+
+footer a {
+  color: #c78c06;
+}
