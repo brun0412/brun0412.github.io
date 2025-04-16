@@ -389,4 +389,32 @@ footer a {
     order: 4;
     width: 50%;
   }
+
+  /* rearranging contact section according to desktop requirements using grid */
+
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "contacttitle contacttitle"
+    "message map"
+    "hours hours";
+  }
+
+  .contacttitle {
+    grid-area: contacttitle;
+  }
+
+  .messagesection {
+    grid-area: message;
+    padding-right: 1rem;
+  }
+
+  .hourssection {
+    grid-area: hours;
+  }
+
+  .mapsection {
+    grid-area: map;
+  }
 }
