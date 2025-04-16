@@ -174,8 +174,23 @@ nav form button {
   padding: 2rem;
 }
 
-/* styles team. float will be used for desktop, but unneccesary for mobile. using border to add horizontal lines beneath titles */
+/* styles team. float will be used for desktop, but unneccesary for mobile. using border to add horizontal lines beneath titles. unable to remove gap between images and info? */
 
 .flex div {
   background-color: #ffe6ac;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.flex img {
+  width: 100%;
+}
+
+.flex div h3 {
+  margin: 0;
+}
+
+.flex div h4 {
+  border-bottom: #c78c06 2px solid;
+  margin: 0.5rem 0;
 }
