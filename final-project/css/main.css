@@ -154,3 +154,22 @@ nav form button {
   font-size: 1.5rem;
   padding: 2rem;
 }
+
+/* vision section below. background uses same methods as about */
+
+.visionbg {
+  background-color: #222;
+  background-image: url(../images/vision.jpg);
+  background-size: cover;
+  color: white;
+}
+
+/* styling button, same methods as earlier buttons */
+
+.visionbg div article button {
+  background-color: rgba(2, 2, 2, 0.5);
+  color: white;
+  border: #c78c06 1px solid;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
