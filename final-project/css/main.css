@@ -255,3 +255,58 @@ footer {
 footer a {
   color: #c78c06;
 }
+
+/* everything from here on is for desktop layout */
+
+@media screen and (min-width: 760px){
+  
+/* remakes nav bar for desktop */
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .logobg {
+    width: 10%;
+    margin: 1rem;
+    background-color: #222;
+  }
+
+  .logobg img {
+    width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
+
+  nav ul li {
+    flex-grow: 1;
+    padding: 1rem;
+  }
+
+  #searchbar {
+    flex-grow: 1;
+  }
+
+  /* resizes header semi opaque background to no longer be edge to edge */
+
+  .headerbgdark {
+    width: fit-content;
+    margin: auto;
+  }
+
+  /* arranges nav into side by side configuration, adds margin onto left side of text */
+
+  #about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #about article {
+    padding-left: 1rem;
+  }
+}
