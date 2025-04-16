@@ -309,4 +309,54 @@ footer a {
   #about article {
     padding-left: 1rem;
   }
+
+  /* rearranges services to grid using 6x3 configuration */
+
+  #services {
+    display: grid;
+    justify-items: flex-start;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+      "title title title title title title"
+      "digi digi digi mark mark mark"
+      "vid vid web web print print";
+  }
+
+  /* allows the grid items to be rearranged such that the button stays at the bottom of the boxes while being full width */
+
+  #services article {
+    display: grid;
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .servicesbutton {
+    justify-self: flex-end;
+    align-self: center;
+    width: 90%;
+  }
+
+  #services div {
+    grid-area: title;
+  }
+
+  .digi {
+    grid-area: digi;
+  }
+
+ .mark {
+    grid-area: mark;
+  }
+
+  .vid {
+    grid-area: vid;
+  }
+
+  .web {
+    grid-area: web;
+  }
+
+  .print {
+    grid-area: print;
+  }
 }
