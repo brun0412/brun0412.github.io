@@ -194,3 +194,46 @@ nav form button {
   border-bottom: #c78c06 2px solid;
   margin: 0.5rem 0;
 }
+
+/* styles contact */
+
+#contact div form label {
+  display: block;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.contactfield {
+  width: 100%;
+  height: 1.5rem;
+}
+
+#message {
+  height: 6rem;
+}
+
+.contactbutton {
+  background-color: #222;
+  color: #c78c06;
+  border: none;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+}
+
+/* styles opening hours using grid, assigning proper grid item sizes, adding borders, and changing style for days and hours items */
+
+.hourstable {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hourstable p {
+  border: black 1px solid;
+  padding: 1rem;
+  margin: 0;
+}
+
+.hourslabel {
+  background-color: #ffe6ac;
+  text-align: center;
+}
