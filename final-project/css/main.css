@@ -100,6 +100,7 @@ nav form button {
   background-color: #ffe6ac;
   background-image: url(../images/main-banner.jpg);
   background-size: cover;
+  background-position: center;
   width: 100%;
   padding: 4rem 0 4rem;
 }
